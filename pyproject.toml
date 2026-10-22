@@ -7,7 +7,12 @@ authors = [
     { name = "mac1", email = "karl karlmarxisty@gmail.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.4",
+    "pandas>=3.0.6",
+    "seaborn>=0.13.2",
+]
 
 [project.scripts]
 smart-invoice-system = "smart_invoice_system:main"
