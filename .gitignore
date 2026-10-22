@@ -77,8 +77,8 @@ tmp/
 temp/
 *.tmp
 
-# Local data / outputs (adjust if you want these tracked)
+# Local data / outputs
 data/
 outputs/
 *.sqlite
-# *.db
+*.db
